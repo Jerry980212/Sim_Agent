@@ -1,0 +1,12 @@
+# Web 框架
+flask>=3.0
+flask-socketio>=5.3
+
+# MCP SDK
+mcp>=1.0
+
+# LLM 调用
+openai>=1.30
+
+# PyFluent（实际仿真时需要）
+ansys-fluent-core>=0.20
