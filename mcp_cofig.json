@@ -1,0 +1,30 @@
+{
+  "mcpServers": {
+    "pyfluent": {
+      "command": "python",
+      "args": ["mcp_servers/pyfluent_mcp_server.py"],
+      "description": "PyFluent 仿真操作工具集",
+      "tools": [
+        "launch_fluent",
+        "read_mesh",
+        "set_turbulence_model",
+        "set_boundary_condition",
+        "run_solver",
+        "export_results",
+        "get_session_status",
+        "validate_simulation_parameter"
+      ]
+    },
+    "cfd_knowledge": {
+      "command": "python",
+      "args": ["mcp_servers/cfd_knowledge_mcp_server.py"],
+      "description": "CFD 领域知识和最佳实践",
+      "tools": [
+        "recommend_turbulence_model",
+        "get_convergence_criteria",
+        "diagnose_error",
+        "evaluate_mesh_quality"
+      ]
+    }
+  }
+}
