@@ -1,0 +1,10 @@
+<extension version="1" name="EX01_SimBolt">
+  <guid>dc2f837b-b6da-4880-b193-89d2d256417d</guid>
+  <description>AI仿真智能体插件</description>
+  <script src="main.py" />
+  <interface context="Mechanical">
+    <callbacks>
+      <oninit>StartUp</oninit>
+    </callbacks>
+  </interface>
+</extension>
